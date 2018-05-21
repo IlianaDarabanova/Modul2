@@ -1,6 +1,4 @@
-package com.company.LeetCode;
-
-import java.util.List;
+package com.company.LeetCodeProblems;
 
 public class MergeTwoSortedArrayLists {
     public static void main(String[] args){

@@ -55,7 +55,7 @@ public class StaticQueue {
     }
 
     private void resizeData() {
-      data = new int[data.length*2];
+       data = Arrays.copyOf(data, data.length*2);;
     }
 
     public int peek() throws Exception {
