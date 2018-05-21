@@ -1,8 +1,11 @@
-package com.company;
+package lds;
 
-import com.company.Queue.DynamicQueue;
-import com.company.Queue.StaticQueue;
-import com.company.Stack.StaticStack;
+import lds.Queue.StaticQueue;
+import lds.Queue.DynamicQueue;
+import lds.Stack.DynamicStack;
+import lds.Stack.StaticStack;
+
+import java.util.EmptyStackException;
 
 public class Main {
 
@@ -56,5 +59,28 @@ public class Main {
     while(!sQ.isEmpty()){
         System.out.println(sQ.dequeue());
     }
+
+
+    //Creating dynamic Stack
+
+        DynamicStack ds = new DynamicStack();
+        System.out.println(ds.isEmpty());
+        try{
+            ds.pop();
+
+        }catch (EmptyStackException e){
+            System.out.println("Empty Stack!");
+        }
+        ds.push(1);
+        ds.push(2);
+        ds.push(3);
+        ds.push(4);
+        System.out.println(ds.peek());
+        ds.pop();
+        System.out.println();
+        while (!ds.isEmpty()){
+            System.out.println(ds.pop());
+        }
+
     }
 }

@@ -1,4 +1,4 @@
-package com.company.Queue;
+package lds.Queue;
 
 import java.util.Arrays;
 

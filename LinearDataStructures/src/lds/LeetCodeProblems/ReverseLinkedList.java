@@ -1,4 +1,4 @@
-package com.company.LeetCodeProblems;
+package lds.LeetCodeProblems;
 
 public class ReverseLinkedList {
 

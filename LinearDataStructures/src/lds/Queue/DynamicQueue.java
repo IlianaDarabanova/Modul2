@@ -1,4 +1,4 @@
-package com.company.Queue;
+package lds.Queue;
 
 public class DynamicQueue {
 

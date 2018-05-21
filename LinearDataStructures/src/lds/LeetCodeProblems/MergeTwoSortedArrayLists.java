@@ -1,4 +1,4 @@
-package com.company.LeetCodeProblems;
+package lds.LeetCodeProblems;
 
 public class MergeTwoSortedArrayLists {
     public static void main(String[] args){

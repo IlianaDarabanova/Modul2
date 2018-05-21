@@ -1,4 +1,4 @@
-package com.company.Stack;
+package lds.Stack;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;
@@ -26,7 +26,7 @@ public class StaticStack {
     }
 
     public int pop(){
-        if (top == -1) {
+        if (isEmpty()) {
 
            throw new EmptyStackException();
         }
