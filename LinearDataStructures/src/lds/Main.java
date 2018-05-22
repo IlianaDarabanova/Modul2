@@ -5,6 +5,7 @@ import lds.Queue.DynamicQueue;
 import lds.Stack.DynamicStack;
 import lds.Stack.StaticStack;
 import sortAlg.BubbleSort;
+import sortAlg.InsertionSort;
 import sortAlg.SelectionSort;
 
 import java.util.EmptyStackException;
@@ -98,13 +99,20 @@ public class Main {
 //
         //BUBBLE SORT VERSION 1
 
-        BubbleSort.bubbleSort(arr);
-        for(int el : arr){
-            System.out.print(el+" ");
-        }
-        BubbleSort.bubbleSortVersion2(arr);
-        System.out.println();
-        for(int el : arr){
+//        BubbleSort.bubbleSort(arr);
+//        for(int el : arr){
+//            System.out.print(el+" ");
+//        }
+//        BubbleSort.bubbleSortVersion2(arr);
+//        System.out.println();
+//        for(int el : arr){
+//            System.out.print(el+" ");
+//        }
+
+        //INSERTION SORT
+
+        InsertionSort.insertionSort(arr);
+        for (int el :arr){
             System.out.print(el+" ");
         }
     }

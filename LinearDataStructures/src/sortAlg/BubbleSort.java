@@ -1,7 +1,7 @@
 package sortAlg;
 
 public class BubbleSort {
-//TWO FOR-CYCLES VERSION - ASCENDING ORDER
+//TWO FOR-CYCLES VERSION - ASCENDING ORDER - BETTER VERSION~~~!!!
     public static void bubbleSort(int[]arr){
 
         for(int pass = 1;pass<arr.length;pass++){
