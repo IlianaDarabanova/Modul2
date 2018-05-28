@@ -1,9 +1,6 @@
 package com.company;
 
-import com.company.Algorithms.BubbleSort;
-import com.company.Algorithms.CountingSort;
-import com.company.Algorithms.InsertionSort;
-import com.company.Algorithms.SelectionSort;
+import com.company.Algorithms.*;
 
 import java.util.Arrays;
 
@@ -22,12 +19,16 @@ public class Main {
 //        System.out.println("\nInsertion sort:");
 //        InsertionSort.insertionSort(array);
 //
-        // Arrays.stream(array).forEach(x->System.out.print(x+" "));
-//        System.out.println();
 
 
-        System.out.println("\nCounting sort:");
-        Arrays.stream(CountingSort.CountingSort(array)).forEach(x->System.out.print((x+" ")));
+        System.out.println("\nMerge sort:");
+       MergeSort.mergeSort(array,new int[array.length],0,array.length-1 );
+
+         Arrays.stream(array).forEach(x->System.out.print(x+" "));
+        System.out.println();
+
+//        System.out.println("\nCounting sort:");
+//        Arrays.stream(CountingSort.countingSort(array)).forEach(x->System.out.print((x+" ")));
 
 
 
