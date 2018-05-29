@@ -22,7 +22,7 @@ public class Main {
 
 
         System.out.println("\nMerge sort:");
-       MergeSort.mergeSort(array,new int[array.length],0,array.length-1 );
+       MergeSort.mergeSort(array,0,array.length-1);
 
          Arrays.stream(array).forEach(x->System.out.print(x+" "));
         System.out.println();
