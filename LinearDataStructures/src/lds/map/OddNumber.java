@@ -1,4 +1,4 @@
-package map;
+package junk.lds.map;
 
 import java.util.HashMap;
 import java.util.Scanner;
